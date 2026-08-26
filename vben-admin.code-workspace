@@ -2,7 +2,7 @@
   "folders": [
     {
       "name": "@vben/yunmon",
-      "path": "yunmon"
+      "path": "apps/yunmon"
     },
     {
       "name": "@vben/backend-mock",
