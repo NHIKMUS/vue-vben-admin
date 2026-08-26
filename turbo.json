@@ -35,6 +35,7 @@
       "outputs": [".nitro/**", ".output/**"]
     },
     "test:e2e": {},
+    "test:yunmon": {},
     "dev": {
       "dependsOn": [],
       "outputs": [],

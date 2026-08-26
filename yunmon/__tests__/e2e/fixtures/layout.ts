@@ -12,7 +12,7 @@ const test = base.extend<Record<never, never>, LayoutWorkerFixtures>({
   layoutPage: [
     async ({ browser }, use) => {
       const context = await browser.newContext({
-        baseURL: 'http://localhost:5555',
+        baseURL: 'http://localhost:6880',
         viewport: { height: 900, width: 1440 },
       });
       await context.addInitScript(() => {
