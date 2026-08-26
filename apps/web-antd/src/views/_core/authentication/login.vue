@@ -9,6 +9,7 @@ import { $t } from '@vben/locales';
 
 import { useAuthStore } from '#/store';
 
+// 这个是vue3.3 提供的宏必须使用文本
 defineOptions({ name: 'Login' });
 
 const authStore = useAuthStore();

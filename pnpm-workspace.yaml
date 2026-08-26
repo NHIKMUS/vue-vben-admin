@@ -12,6 +12,7 @@ packages:
   - scripts/*
   - docs
   - playground
+  - yunmon
 
 publicHoistPattern:
   - lefthook

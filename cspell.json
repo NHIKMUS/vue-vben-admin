@@ -77,6 +77,8 @@
     "vitest",
     "vnode",
     "vueuse",
+    "webp",
+    "yunmon",
     "yxxx"
   ],
   "ignorePaths": [

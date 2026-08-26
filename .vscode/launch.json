@@ -4,10 +4,23 @@
   "configurations": [
     {
       "type": "chrome",
+      "name": "yunmon dev",
+      "request": "launch",
+      "url": "http://localhost:6880",
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "sourceMaps": true,
+      "webRoot": "${workspaceFolder}/yunmon"
+    },
+    {
+      "type": "chrome",
       "name": "vben admin playground dev",
       "request": "launch",
       "url": "http://localhost:5555",
-      "env": { "NODE_ENV": "development" },
+      "env": {
+        "NODE_ENV": "development"
+      },
       "sourceMaps": true,
       "webRoot": "${workspaceFolder}/playground"
     },
@@ -16,7 +29,9 @@
       "name": "vben admin antd dev",
       "request": "launch",
       "url": "http://localhost:5666",
-      "env": { "NODE_ENV": "development" },
+      "env": {
+        "NODE_ENV": "development"
+      },
       "sourceMaps": true,
       "webRoot": "${workspaceFolder}/apps/web-antd"
     },
@@ -25,7 +40,9 @@
       "name": "vben admin ele dev",
       "request": "launch",
       "url": "http://localhost:5777",
-      "env": { "NODE_ENV": "development" },
+      "env": {
+        "NODE_ENV": "development"
+      },
       "sourceMaps": true,
       "webRoot": "${workspaceFolder}/apps/web-ele"
     },
@@ -34,7 +51,9 @@
       "name": "vben admin naive dev",
       "request": "launch",
       "url": "http://localhost:5888",
-      "env": { "NODE_ENV": "development" },
+      "env": {
+        "NODE_ENV": "development"
+      },
       "sourceMaps": true,
       "webRoot": "${workspaceFolder}/apps/web-naive"
     }
